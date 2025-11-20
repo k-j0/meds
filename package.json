@@ -1,0 +1,25 @@
+{
+    "name": "meds",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "npx eslint **/*.ts && tsc --noEmit"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "3.3.1",
+        "@eslint/js": "9.25.1",
+        "@typescript-eslint/eslint-plugin": "8.31.1",
+        "@typescript-eslint/parser": "8.31.1",
+        "eslint": "9.25.1",
+        "eslint-plugin-promise": "7.2.1",
+        "globals": "16.0.0",
+        "typescript": "5.8.3",
+        "vite": "6.3.5"
+    },
+    "packageManager": "pnpm@10.10.0",
+    "engines": {
+        "node": "24"
+    }
+}
