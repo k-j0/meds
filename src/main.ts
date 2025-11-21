@@ -14,6 +14,10 @@ const checkboxes = [
     'midday',
     'evening',
     'late',
+    'water1',
+    'water2',
+    'water3',
+    'water4',
 ].map(id => elem(id) as HTMLInputElement);
 
 function displayDay (date: Date) {
