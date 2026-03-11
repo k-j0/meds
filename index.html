@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meds</title>
+    <link rel="icon" href="data:;base64,">
+    <style>
+        * {
+            margin: 0;
+            color: #17175b;
+            font-family: sans-serif;
+        }
+        body {
+            background: #233547;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 300px;
+            background: #d7eaf7;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px #00008855;
+            padding: 1.5em;
+        }
+        h1 {
+            margin-bottom: 0.7em;
+        }
+        a {
+            text-decoration: none;
+            background: white;
+            padding-left: .2em;
+            padding-right: .2em;
+            box-shadow: 1px 1px 1px 1px #00008855;
+        }
+        input[type=checkbox], label {
+            cursor: pointer;
+            font-size: 1.5em;
+        }
+        input[type=checkbox] {
+            width: .9em;
+            height: .9em;
+        }
+        label {
+            margin-left: 0.3em;
+        }
+    </style>
+  <script type="module" crossorigin src="./assets/index-DNghTnlp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <a id="prev" href="javascript:void(0)">←</a>&nbsp;<span id="date">$date</span>&nbsp;<a id="next" href="javascript:void(0)">→</a>
+        </h1>
+        <input type="checkbox" id="early"/><label for="early">09:00</label><br/>
+        <input type="checkbox" id="morning"/><label for="morning">morning</label><br/>
+        <input type="checkbox" id="midday"/><label for="midday">calcit</label><br/>
+        <input type="checkbox" id="evening"/><label for="evening">evening</label><br/>
+        <input type="checkbox" id="late"/><label for="late">21:00</label><br/>
+        <input type="checkbox" id="water1"/><label for="water1">water 1</label><br/>
+        <input type="checkbox" id="water2"/><label for="water2">water 2</label><br/>
+        <input type="checkbox" id="water3"/><label for="water3">water 3</label><br/>
+        <input type="checkbox" id="water4"/><label for="water4">water 4</label><br/>
+    </div>
+</body>
+</html>
