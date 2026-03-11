@@ -11,3 +11,9 @@ pnpm dev
 ```
 pnpm lint
 ```
+
+## Deploy
+
+```
+pnpm run deploy
+```

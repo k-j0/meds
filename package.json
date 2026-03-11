@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "deploy": "pnpm build && gh-pages -d dist",
         "lint": "npx eslint **/*.ts && tsc --noEmit"
     },
     "devDependencies": {
@@ -21,5 +22,8 @@
     "packageManager": "pnpm@10.10.0",
     "engines": {
         "node": "24"
+    },
+    "dependencies": {
+        "gh-pages": "^6.3.0"
     }
 }
