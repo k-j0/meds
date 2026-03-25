@@ -12,7 +12,6 @@ const checkboxes = [
     'early',
     'morning',
     'midday',
-    'evening',
     'late',
     'water1',
     'water2',
