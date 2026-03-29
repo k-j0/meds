@@ -9,9 +9,8 @@ const dateTitle = elem('date');
 const prevButton = elem('prev');
 const nextButton = elem('next');
 const checkboxes = [
-    'early',
     'morning',
-    'midday',
+    'early',
     'late',
     'water1',
     'water2',
